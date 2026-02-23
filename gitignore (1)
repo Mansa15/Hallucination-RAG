@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb
+
+# Data & dumps
+*.xml
+*.xml.bz2
+*.xml.gz
+*.bz2
+*.gz
+*.zip
+data/
+dumps/
+cache/
+
+# Model artifacts & outputs
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.bin
+models/
+embeddings/
+checkpoints/
+
+# Plots & reports
+*.png
+*.jpg
+*.pdf
+plots/
+reports/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
